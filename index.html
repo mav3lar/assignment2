@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h1 {
+        text-align: center;
+        font-family: Century Gothic, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    table {
+        border-collapse: collapse;   
+        margin: 20px auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    table img {
+        width: 200px;
+        max-height: 150px;
+        display: block;
+    }
+    th,
+    td {
+        border: 2px solid;
+        border-radius: 10px;
+        padding: 20px;
+        color: #dfdfdf;
+        background-color:rgb(55, 85, 204);
+    }
+    td:hover,
+    th:hover {
+        background-color: rgb(216,16,77);
+    }
+    .image-column {
+        padding: 0;
+    }
+</style>
+</head>
+<body>
+    <h1>Top Dogs</h1>
+    <table>
+        <tr>
+            <th>Photo</th>
+            <th>Type</th>
+            <th>Average Weight</th>
+            <th>Domestic or Wild</th>
+            <th>Origin</th>
+            <th>Popularity Year</th>
+            <th>Average Lifespan</th>
+        </tr>
+        <tr>
+        <td class="image-column"> <img
+         src="./images/german.jpeg" width="500" height="200" /></td>
+        <td>German Shepherd</td>
+        <td>66-88 lbs</td>
+        <td>Domestic</td>
+        <td>Germany</td>
+        <td>1930-1940s</td>
+        <td>9-13yrs</td>
+        </tr>
+        <tr>
+            <td class="image-column"> <img
+                src="./images/mikaJade.jpeg" width="200" height="150" /></td>
+            <td>Husky</td>
+            <td>35-60 lbs</td>
+            <td>Both</td>
+            <td>Siberia</td>
+            <td>1940</td>
+            <td>12-15yrs</td>
+        </tr>
+        <tr>
+            <td class="image-column"> <img
+            src="./images/great_dane.jpeg" weight="200" height="500" /> </td>
+            <td>Great Dane</td>
+            <td>120-200 lbs</td>
+            <td>Both</td>
+            <td>Germany</td>
+            <td>1887</td>
+            <td>8-10yrs</td>
+        </tr>
+    </table>
+</body>
+</html>
